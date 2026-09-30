@@ -1,0 +1,30 @@
+# Datasets (pulled via HF datasets or generated locally; too large to commit)
+datasets/
+*.tsv.gz
+*.csv
+
+# Distilled model checkpoints
+distilled/
+*.pth
+*.safetensors
+*.bin
+
+# Layer-combination search results
+*.xlsx
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

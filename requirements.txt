@@ -1,0 +1,23 @@
+# Core deep learning
+torch>=2.1
+
+# Sentence embeddings + v3 Trainer API (SentenceTransformerTrainer,
+# SentenceTransformerTrainingArguments, EmbeddingSimilarityEvaluator, MSEEvaluator)
+sentence-transformers>=3.0
+
+# Data loading / manipulation
+datasets>=2.19
+pandas>=2.0
+numpy>=1.26
+scikit-learn>=1.3
+
+# Excel export for layer-combination results
+openpyxl>=3.1
+
+# Plotting + progress bars
+matplotlib>=3.8
+tqdm>=4.66
+
+# Notebook runtime
+jupyter
+ipykernel
